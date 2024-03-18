@@ -50,7 +50,12 @@ const footer = styled.div`
     text-align: center;
     color: white;
 `
+const StyledImage = styled.img`
+    width: 600px;
+    height: auto;
+    margin-right: 10px;
+`;
 
 export const S = {
-    NavWrapper, header,body,nav,content,footer
+    NavWrapper, header,body,nav,content,footer,StyledImage
 }
